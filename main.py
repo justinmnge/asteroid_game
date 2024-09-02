@@ -20,6 +20,7 @@ def main():
         player.draw(screen)
         pygame.display.flip() # update display
         dt = clock.tick(60) / 1000 # control frame rate and get dt
+        player.update(dt)
     
 if __name__ == "__main__":
     main()
