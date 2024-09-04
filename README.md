@@ -14,7 +14,7 @@ Welcome to **Asteroids**! This classic arcade game has been recreated using Pyga
    - **Spacebar**: Fire your weapon to destroy incoming asteroids.
 
 3. **Objective**: 
-   - Destroy asteroids
+   - Destroy the asteroids
    - Avoid collisions with asteroids to stay alive. The game ends when your ship is destroyed.
 
 Good luck, and enjoy your time in space!
