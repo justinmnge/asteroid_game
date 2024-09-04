@@ -9,9 +9,12 @@ from shot import *
 
 def main():
     pygame.init()
-    screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-    clock = pygame.time.Clock()
     
+    screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
+    pygame.display.set_caption("Asteroids")
+    image = pygame.image.load('space.png')
+    clock = pygame.time.Clock()
+  
     updatable = pygame.sprite.Group()
     drawable = pygame.sprite.Group()
     asteroids = pygame.sprite.Group()
@@ -46,8 +49,9 @@ def main():
                     shot.kill()
                     asteroid.split()
         
-        screen.fill("black") # draw everything
-        
+        #screen.fill("black") # draw everything
+        screen.blit(image, (0, 0))
+
         for obj in drawable:
             obj.draw(screen)
         
