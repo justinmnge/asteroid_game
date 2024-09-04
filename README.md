@@ -19,7 +19,7 @@ Welcome to **Asteroids**! This classic arcade game has been recreated using Pyga
 
 Good luck, and enjoy your time in space!
 
-## To Do:
+## Future implementation:
    - <s>Add a background image</s>
    - Add a scoring system
    - Implement multiple lives and respawning
