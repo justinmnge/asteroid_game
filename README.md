@@ -1,6 +1,6 @@
 # README
 
-Welcome to **Asteroids**! This classic arcade game has been recreated using Pygame, where you'll pilot a spaceship in a hostile asteroid field. Your goal is to survive as long as possible by shooting down asteroids while avoiding collisions.
+Welcome to **Asteroids**! This classic arcade game has been recreated using Pygame, where you'll pilot a spaceship in a hostile asteroid field. Your goal is to survive as long as possible by shooting down as many asteroids you can while avoiding collisions.
 
 ![asteroids](https://github.com/user-attachments/assets/5604077e-a4b2-4654-9554-1b833f485e35)
 
